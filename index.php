@@ -29,6 +29,7 @@
         }
     catch(Exception $e){
      die($e->getMessage("Erreur lors de l\'envoie des donnees dans la base de donnees"));
+     var_dump($_POST['name'],$_POST['email']);
     }
     ?>
 </div>
